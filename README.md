@@ -716,15 +716,15 @@ Subnets play a crucial role in organizing and securing EC2 instances within a VP
 Security groups protect your EC2 instances by acting as virtual firewalls. They control the inbound and outbound traffic to your instances by specifying which protocols, ports, and IP ranges are allowed or denied. Each security group can have multiple rules that filter traffic, providing an additional layer of security by ensuring that only the intended traffic reaches your instances.
 
 •	What are the steps to launch an EC2 instance?
-•	Login to AWS Console: Access the AWS Management Console and navigate to the EC2 Dashboard.
-•	Choose an AMI: Select an Amazon Machine Image (AMI) that contains the OS and software configuration you need.
-•	Choose an Instance Type: Select the instance type based on the required CPU, memory, storage, and network performance.
-•	Configure Instance Details: Configure settings such as the number of instances, network settings, IAM roles, and shutdown behavior.
-•	Add Storage: Specify the storage volume and type.
-•	Add Tags: Optionally, add tags to your instance for identification and management.
-•	Configure Security Group: Create or select a security group to define the firewall rules for your instance.
-•	Review and Launch: Review your settings and launch the instance.
-•	Select Key Pair: Choose or create a key pair for SSH access to your instance.
+- Login to AWS Console: Access the AWS Management Console and navigate to the EC2 Dashboard.
+- Choose an AMI: Select an Amazon Machine Image (AMI) that contains the OS and software configuration you need.
+- Choose an Instance Type: Select the instance type based on the required CPU, memory, storage, and network performance.
+- Configure Instance Details: Configure settings such as the number of instances, network settings, IAM roles, and shutdown behavior.
+- Add Storage: Specify the storage volume and type.
+- Add Tags: Optionally, add tags to your instance for identification and management.
+- Configure Security Group: Create or select a security group to define the firewall rules for your instance.
+- Review and Launch: Review your settings and launch the instance.
+- Select Key Pair: Choose or create a key pair for SSH access to your instance.
 
 Once these steps are completed, your instance will start provisioning and will be ready for use.
 
