@@ -185,9 +185,13 @@ AWS Regions enhance disaster recovery capabilities by:
 7.	Allowing testing of DR scenarios without impacting production
 
 **•	What are the four main factors to consider when choosing an AWS Region?**
+
 **- Latency:** Proximity to users for better performance
+
 **- compliance:** Meeting data sovereignty and regulatory requirements
+
 **- Service availability:** Ensuring required services are available in the region
+
 **- Pricing:** Cost variations between regions for services and data transfer
   
 **•	What is an AWS Availability Zone?**
@@ -298,3 +302,97 @@ AWS Edge locations and Amazon CloudFront improve content delivery by:
 7. Supporting both static and dynamic content delivery
 
 This combination ensures faster, more reliable content delivery to users worldwide, enhancing overall application performance and user experience.
+
+**•	What is an API in the context of AWS?**
+An API (Application Programming Interface) in the context of AWS is a set of protocols, routines, and tools that allow different software applications to communicate with AWS services. It enables developers to:
+
+1. Interact with AWS services programmatically
+2. Automate AWS resource management
+3. Integrate AWS functionalities into applications
+4. Access and manipulate AWS resources and data
+5. Create custom solutions using AWS services
+   
+APIs provide a standardized way to request and exchange data between applications and AWS services, facilitating easier development and management of cloud-based solutions.
+
+**•	What is the primary method of interacting with AWS services?**
+The primary method of interacting with AWS services is through APIs (Application Programming Interfaces). These APIs allow users to:
+
+1. Manage AWS resources programmatically
+2. Automate tasks and workflows
+3. Integrate AWS services into applications
+4. Access and manipulate data in AWS services
+5. Configure and control AWS infrastructure
+   
+APIs provide a standardized way to communicate with AWS services, enabling developers and administrators to interact with AWS resources efficiently and programmatically.
+
+**•	What are the main ways to interact with AWS services?**
+The main ways to interact with AWS services are:
+
+1.	AWS Management Console: Web-based interface for manual management
+2.	AWS Command Line Interface (CLI):Text-based tool for scripting and automation
+3.	AWS Software Development Kits (SDKs):Libraries for programming language integration
+4.	AWS APIs:Direct programmatic access to services
+5.	AWS CloudFormation:Infrastructure as Code for resource provisioning
+6.	Third-party tools: Various applications that integrate with AWS
+
+These methods provide flexibility for users to manage and interact with AWS services based on their needs and preferences.
+
+**•	Why is automation important in cloud deployment?**
+Automation in cloud deployment is important because it:
+
+1. Reduces human error
+2. Increases efficiency and speed of deployments
+3. Enables consistent and repeatable processes
+4. Facilitates scaling of resources
+5. Improves resource management
+6. Enhances security through standardized configurations
+7. Allows for easier disaster recovery
+8. Reduces operational costs
+9. Enables continuous integration and delivery
+10. Frees up IT staff for more strategic tasks
+    
+Automation helps organizations leverage cloud benefits more effectively, improving overall agility and reliability of their infrastructure.
+
+**•	What is the primary advantage of using AWS Elastic Beanstalk over manual methods like the AWS Management Console?**
+The primary advantage of using AWS Elastic Beanstalk over manual methods is automation and simplification of application deployment. It:
+
+1. Automatically handles infrastructure provisioning
+2. Manages capacity scaling
+3. Implements load balancing
+4. Monitors application health
+5. Streamlines application updates
+6. Reduces the need for manual configuration
+7. Allows developers to focus on code, not infrastructure
+
+Elastic Beanstalk simplifies the deployment process, saving time and reducing errors compared to manual setup through the AWS Management Console.
+
+**•	What is AWS Elastic Beanstalk used for?**
+AWS Elastic Beanstalk is used for deploying and scaling web applications and services. It automatically handles infrastructure management, including capacity provisioning, load balancing, and application health monitoring, allowing developers to focus on writing code rather than managing the underlying infrastructure.
+
+**•	How does AWS CloudFormation help in managing AWS resources?**
+AWS CloudFormation helps manage AWS resources by allowing you to define and provision infrastructure as code. It enables you to create templates that describe your desired resources and their dependencies, then automatically deploys and manages those resources in a consistent, repeatable manner across multiple environments or AWS accounts.
+
+**•	What are the main components of AWS Global Infrastructure?**
+The main components of AWS Global Infrastructure are:
+1. Regions
+2. Availability Zones
+3. Edge Locations
+4. Regional Edge Caches
+
+These components work together to provide a globally distributed, highly available, and low-latency cloud computing platform for AWS services.
+
+**•	Which AWS services automatically run across multiple Availability Zones?**
+AWS services that automatically run across multiple Availability Zones include:
+1. Amazon EC2 Auto Scaling
+2. Elastic Load Balancing
+3. Amazon RDS
+4. Amazon S3
+5. Amazon DynamoDB
+
+These services are designed to provide high availability and fault tolerance by default, without requiring manual configuration across multiple AZs.
+
+**•	What is the recommended best practice for deploying infrastructure in AWS?**
+The recommended best practice for deploying infrastructure in AWS is:
+Infrastructure as Code (IaC)
+This approach involves using tools like AWS CloudFormation or Terraform to define and manage infrastructure through code. It enables version control, automated deployments, consistency across environments, and easier management of complex infrastructures.
+
