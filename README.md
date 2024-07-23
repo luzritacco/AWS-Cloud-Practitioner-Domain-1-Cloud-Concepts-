@@ -1,4 +1,6 @@
 # AWS-Cloud-Practitioner
+![Screenshot 2024-07-23 033144](https://github.com/user-attachments/assets/8fcaba67-7021-40a3-a724-8575fc84e818)
+
 ## Domain-1-Cloud-Concepts ##
 **•	What is Cloud Computing?**
 
